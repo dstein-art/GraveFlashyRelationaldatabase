@@ -7,6 +7,6 @@ function setup() {
 
 function draw() {
   noStroke()
-  fill(random(colorlist));
+  rect(mouseX,mouseY,25);
   ellipse(mouseX, mouseY, 25, 25);
 }
